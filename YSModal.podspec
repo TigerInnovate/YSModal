@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "YSModal"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "模态弹框，方向与长度自定义，有遮罩半透明效果"
 s.homepage     = "https://github.com/yscode001/YSModal"
 s.license      = "MIT"

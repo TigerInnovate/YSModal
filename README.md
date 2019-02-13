@@ -29,6 +29,8 @@ import YSModal
 
 3、如果需要自定义方向、长度，遮罩颜色，透明度，重写以下相应的方法即可；
 
+4、如果是UINavigationController，继承YSModal_presentedNavC，用法一样；
+
 ```swift
 import UIKit
 

@@ -1,6 +1,6 @@
 import UIKit
 
-open class YSModal_animator:NSObject,UIViewControllerTransitioningDelegate {
+open class YSModal_animator: NSObject, UIViewControllerTransitioningDelegate {
     
     private let sw = UIScreen.main.bounds.width
     private weak var presentedVC:YSModal_presentedVC?
@@ -54,7 +54,7 @@ extension YSModal_animator:UIViewControllerAnimatedTransitioning,CAAnimationDele
     }
     
     // 动画方法
-    private func animateAction(view:UIView){
+    private func animateAction(view: UIView){
         if isPresent{
             animateAction_present(view: view)
         } else{
@@ -89,7 +89,7 @@ extension YSModal_animator:UIViewControllerAnimatedTransitioning,CAAnimationDele
         }
     }
     
-    private func animateAction_present(view:UIView){
+    private func animateAction_present(view: UIView){
         let sw = UIScreen.main.bounds.width
         let sh = UIScreen.main.bounds.height
         var fromFrame:CGRect
@@ -117,7 +117,7 @@ extension YSModal_animator:UIViewControllerAnimatedTransitioning,CAAnimationDele
         }
     }
     
-    private func animateAction_dismiss(view:UIView){
+    private func animateAction_dismiss(view: UIView){
         let sw = UIScreen.main.bounds.width
         let sh = UIScreen.main.bounds.height
         var fromFrame:CGRect
