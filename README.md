@@ -29,7 +29,7 @@ import YSModal
 
 3、如果需要自定义方向、长度，遮罩颜色，透明度，重写以下相应的方法即可；
 
-```
+```swift
 import UIKit
 
 class PresentedVC: YSModal_presentedVC {
@@ -59,7 +59,7 @@ class PresentedVC: YSModal_presentedVC {
 
 1、在需要Modal展现的地方，直接present即可，注意，presentedVC一定是YSModal_presentedVC子类对象
 
-```
+```swift
 import UIKit
 
 class ViewController: UIViewController{
