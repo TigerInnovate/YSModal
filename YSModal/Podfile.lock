@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.2.0)
+  - YSBase (1.1.7):
+    - SnapKit
+
+DEPENDENCIES:
+  - YSBase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+    - YSBase
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YSBase: 2b8498d56d4887da094d8480f7dea2ccaf500400
+
+PODFILE CHECKSUM: 1f3941eb61f1c507c423a741cd2dc8f4eddcb52f
+
+COCOAPODS: 1.5.3

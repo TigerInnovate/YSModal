@@ -1,0 +1,6 @@
+framework module YSBase {
+  umbrella header "YSBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
