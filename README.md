@@ -4,7 +4,7 @@
 <img src="sample.jpg" width = "300" height = "529" />
 
 ## 环境
-swift4.2、iOS9.0
+swift5.0、iOS10.0
 
 ## 使用步骤 
 1、导入框架
